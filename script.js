@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  const apiRoot = 'https://safe-shelf-52426.herokuapp.com/v1/task';
+  const apiRoot = 'https://safe-shelf-52426.herokuapp.com/v1/task/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const tasksContainer = $('[data-tasks-container]');
 
