@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://enigmatic-cove-06538.herokuapp.com/v1/';
+  const apiRoot = 'https://enigmatic-cove-06538.herokuapp.com/v1/tasks/';
   const trelloApiRoot = 'https://enigmatic-cove-06538.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
